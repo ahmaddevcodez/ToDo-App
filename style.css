@@ -1,0 +1,105 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font for the whole page */
+body {
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Style the container */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Style the form */
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the input fields */
+.input-1 {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  display: block !important;
+  border-radius: 4px;
+}
+
+/* Style the button */
+#btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the Todo section */
+.Todo {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the headings */
+.h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+#Title {
+  font-weight: 900;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card img {
+  height: 230px;
+  width: 230px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+
+.card-btn {
+  padding: 10px;
+  border-radius: 12px;
+  color: #343;
+  background-color: aqua;
+}
+
+label {
+  width: 200px;
+  background: #e3362c;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input {
+  display: none;
+}
